@@ -4,25 +4,50 @@
     <title>Internship Confirmation Form</title>
 </head>
 <body>
-    <h2>Internship Confirmation Form</h2>
-    <form>
-    <label>Student Name:</label>
-<input type="text" name="student_name" required>
 
+<h2>Internship Confirmation Form</h2>
+
+<form>
+
+<label>Student Name:</label>
+<input type="text" name="student_name" required>
 <br><br>
+
 <label>Email Address:</label>
 <input type="email" name="email" required>
-
 <br><br>
+
 <p>Preferred Internship Type:</p>
 
 <input type="radio" name="type" value="On-Site">
-<label>On-Site</label>
-
-<br>
+<label>On-Site</label><br>
 
 <input type="radio" name="type" value="Remote">
-<label>Remote</label>
+<label>Remote</label><br><br>
+
+<label>Internship Duration:</label>
+
+<select name="duration">
+    <option>6 Weeks</option>
+    <option>3 Months</option>
+</select>
 
 <br><br>
-    </form>
+
+<p>Skills of Interest:</p>
+
+<input type="checkbox" name="skill1">
+<label>Web Development</label><br>
+
+<input type="checkbox" name="skill2">
+<label>Data Analysis</label><br>
+
+<input type="checkbox" name="skill3">
+<label>Mobile Apps</label><br><br>
+
+<input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
