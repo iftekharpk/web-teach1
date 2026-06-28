@@ -217,3 +217,88 @@ footer{
     padding:15px;
     margin-top:40px;
 }
+
+.form-section{
+
+    width:500px;
+
+    margin:40px auto;
+
+    background:white;
+
+    padding:25px;
+
+    border:2px solid #ccc;
+
+    border-radius:10px;
+
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+
+}
+
+.form-section h2{
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+}
+
+label{
+
+    display:block;
+
+    margin-top:15px;
+
+    margin-bottom:5px;
+
+    font-weight:bold;
+
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea{
+
+    width:100%;
+
+    padding:10px;
+
+    border:1px solid #999;
+
+    border-radius:5px;
+
+    font-size:15px;
+
+}
+
+textarea{
+
+    resize:vertical;
+
+}
+
+.radio{
+
+    margin-top:10px;
+
+}
+
+.radio input{
+
+    width:auto;
+
+    margin-right:5px;
+
+}
+
+.radio label{
+
+    display:inline;
+
+    margin-right:20px;
+
+    font-weight:normal;
+
+}
